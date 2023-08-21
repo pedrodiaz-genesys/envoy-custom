@@ -6,7 +6,7 @@ class EnvoyHelper
 {
     public function loadEnv()
     {
-        $dotenv = new \Dotenv\Dotenv(__DIR__ . '/../../../../');
+        $dotenv = new \Dotenv\Dotenv::createImmutable(__DIR__ . '/../../../../');
         try{
             $dotenv->load();
         } catch (Exception $exception) {
