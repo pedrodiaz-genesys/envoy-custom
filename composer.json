@@ -1,0 +1,20 @@
+{
+    "name": "meat/envoy-helper",
+    "description": "Envoy Helper for MEAT projects",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Meat\\EnvoyHelper\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Gonzalo De Spirito",
+        "email": "gonzalo@freshworkstudio.com"
+    }],
+    "bin": [
+        "envoy_helper"
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^4.1 || ^5.4"
+    }
+}
