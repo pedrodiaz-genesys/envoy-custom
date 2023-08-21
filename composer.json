@@ -1,5 +1,5 @@
 {
-    "name": "meat/envoy-helper",
+    "name": "pedrodiaz-genesys/envoy-custom",
     "description": "Envoy Helper for MEAT projects",
     "license": "MIT",
     "autoload": {
